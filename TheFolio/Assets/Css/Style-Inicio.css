@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+ 
+*{
+	font-family:            'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 					100%;
+	min-height: 			100vh;
+	background: 			url(../Media/Img/walper-1.jpg) no-repeat;
+	background-position: 	center;
+	background-size:		cover;
+}
+
+header{
+	position: 				relative;
+	display: 				flex;
+	justify-content: 		center;
+	align-items: 			center;
+	align-items: center;
+	background-color: white;
+	height: 80px;
+}
+
+img.logo{
+    display:                flex;
+    align-items:            center;
+}
+
+.Cajita{
+    text-align:             center;
+	border: 				2px solid rgba(256, 256, 256, .6);
+	border-radius: 			25px;
+    padding:            50px;
+    width:              600px;
+    position:               absolute;
+    top:                50%;
+    left:               50%;
+    transform:          translate(-50%,-50%);
+}
+
+.Foto{
+	border: 5px solid  #ffffff;
+}
+
+.Bton{
+	height: 				50px;
+	border-radius: 			20px;
+	background: 			#ffffff;
+	border: 				none;
+	font-weight: 			bold;
+	cursor: 				pointer;
+	outline: 				none;
+	font-size: 				20px;
+}
+
+.white{
+	color: 					#fff;
+	text-align: 			center;
+}
